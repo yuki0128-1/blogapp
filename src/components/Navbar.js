@@ -11,7 +11,7 @@ import {
 const Navbar = ({ isAuth }) => {
   return (
     <nav>
-      <Link to="/">
+      <Link to="/blogapp">
         <FontAwesomeIcon icon={faHome} />
         ホーム
       </Link>

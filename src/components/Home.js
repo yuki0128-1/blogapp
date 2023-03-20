@@ -16,7 +16,7 @@ const Home = () => {
 
   const handleDelete = async (id) => {
     await deleteDoc(doc(db, "posts", id));
-    window.location.href = "/";
+    window.location.href = "/blogapp";
   };
 
   return (

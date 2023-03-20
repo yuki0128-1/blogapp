@@ -20,7 +20,7 @@ const CreatePost = ({ isAuth }) => {
       },
     });
 
-    navigate("/");
+    navigate("/blogapp");
   };
 
   useEffect(() => {
